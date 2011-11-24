@@ -38,6 +38,9 @@ If you have questions concerning this license or the applicable additional terms
 ===============================================================================
 */
 
+static int		INVALID_INDEX[1] = { -1 };
+
+
 #define DEFAULT_HASH_SIZE			1024
 #define DEFAULT_HASH_GRANULARITY	1024
 
@@ -97,7 +100,7 @@ private:
 	int				hashMask;
 	int				lookupMask;
 
-	static int		INVALID_INDEX[1];
+
 
 	void			Init( const int initialHashSize, const int initialIndexSize );
 	void			Allocate( const int newHashSize, const int newIndexSize );
