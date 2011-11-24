@@ -109,6 +109,10 @@ If you have questions concerning this license or the applicable additional terms
 	#endif
 #endif
 
+// no cd key check
+#define ID_ENFORCE_KEY 0
+
+
 #ifndef ID_ENFORCE_KEY
 #	if !defined( ID_DEDICATED ) && !defined( ID_DEMO_BUILD )
 #		define ID_ENFORCE_KEY 1
