@@ -23,7 +23,6 @@
 		81C857D50912AD0D0095BC33 /* CmdArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C857570912AD0D0095BC33 /* CmdArgs.h */; };
 		81C857D60912AD0D0095BC33 /* BinSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C857590912AD0D0095BC33 /* BinSearch.h */; };
 		81C857D70912AD0D0095BC33 /* BTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C8575A0912AD0D0095BC33 /* BTree.h */; };
-		81C857D80912AD0D0095BC33 /* HashIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C8575B0912AD0D0095BC33 /* HashIndex.cpp */; };
 		81C857D90912AD0D0095BC33 /* HashIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C8575C0912AD0D0095BC33 /* HashIndex.h */; };
 		81C857DA0912AD0D0095BC33 /* HashTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C8575D0912AD0D0095BC33 /* HashTable.h */; };
 		81C857DB0912AD0D0095BC33 /* Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C8575E0912AD0D0095BC33 /* Hierarchy.h */; };
@@ -243,6 +242,7 @@
 		81C858C40912AD510095BC33 /* Token.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C857C80912AD0D0095BC33 /* Token.h */; };
 		81C858D90912ADD80095BC33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C858D80912ADD80095BC33 /* OpenGL.framework */; };
 		81C858DA0912ADD80095BC33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C858D80912ADD80095BC33 /* OpenGL.framework */; };
+		8C2520EB147ECCE700924298 /* HashIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C8575B0912AD0D0095BC33 /* HashIndex.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -862,7 +862,6 @@
 				81C857D00912AD0D0095BC33 /* Frustum.cpp in Sources */,
 				81C857D20912AD0D0095BC33 /* Sphere.cpp in Sources */,
 				81C857D40912AD0D0095BC33 /* CmdArgs.cpp in Sources */,
-				81C857D80912AD0D0095BC33 /* HashIndex.cpp in Sources */,
 				81C857E50912AD0D0095BC33 /* Dict.cpp in Sources */,
 				81C857E70912AD0D0095BC33 /* DrawVert.cpp in Sources */,
 				81C857E90912AD0D0095BC33 /* JointTransform.cpp in Sources */,
@@ -905,6 +904,7 @@
 				81C8583D0912AD0D0095BC33 /* Str.cpp in Sources */,
 				81C8583F0912AD0D0095BC33 /* Timer.cpp in Sources */,
 				81C858410912AD0D0095BC33 /* Token.cpp in Sources */,
+				8C2520EB147ECCE700924298 /* HashIndex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

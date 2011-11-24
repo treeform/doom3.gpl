@@ -223,7 +223,6 @@
 		8122590A0912BC79005D34B9 /* CollisionModel_rotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8122580A0912BC79005D34B9 /* CollisionModel_rotate.cpp */; };
 		8122590B0912BC79005D34B9 /* CollisionModel_trace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8122580B0912BC79005D34B9 /* CollisionModel_trace.cpp */; };
 		8122590C0912BC79005D34B9 /* CollisionModel_translate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8122580C0912BC79005D34B9 /* CollisionModel_translate.cpp */; };
-		812259930912BF7F005D34B9 /* libidlib_nopic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 812259820912BF1D005D34B9 /* libidlib_nopic.a */; };
 		812259940912BF87005D34B9 /* liboggVorbis_nopic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8122598F0912BF38005D34B9 /* liboggVorbis_nopic.a */; };
 		812259B00912BFDC005D34B9 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812259A30912BFDC005D34B9 /* Carbon.framework */; };
 		812259B10912BFDC005D34B9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812259A40912BFDC005D34B9 /* IOKit.framework */; };
@@ -234,6 +233,7 @@
 		81225A0D0912C2D3005D34B9 /* ASLCore.nib in Resources */ = {isa = PBXBuildFile; fileRef = 81225A0B0912C2D3005D34B9 /* ASLCore.nib */; };
 		81225A100912C2E9005D34B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81225A0E0912C2E9005D34B9 /* Localizable.strings */; };
 		81326DCC099C164B003C4788 /* libcurl_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81326DC7099C162D003C4788 /* libcurl_static.a */; };
+		8C252126147ED0DF00924298 /* libidlib_nopic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 812259820912BF1D005D34B9 /* libidlib_nopic.a */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -684,12 +684,12 @@
 			files = (
 				81326DCC099C164B003C4788 /* libcurl_static.a in Frameworks */,
 				812259940912BF87005D34B9 /* liboggVorbis_nopic.a in Frameworks */,
-				812259930912BF7F005D34B9 /* libidlib_nopic.a in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				812259B00912BFDC005D34B9 /* Carbon.framework in Frameworks */,
 				812259B10912BFDC005D34B9 /* IOKit.framework in Frameworks */,
 				812259B30912BFDC005D34B9 /* OpenGL.framework in Frameworks */,
 				812259B70912C056005D34B9 /* CoreAudio.framework in Frameworks */,
+				8C252126147ED0DF00924298 /* libidlib_nopic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

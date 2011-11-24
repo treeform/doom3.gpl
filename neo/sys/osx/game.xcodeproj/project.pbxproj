@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81225A3A0912C3DB005D34B9 /* libidlib_pic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81225A210912C3A4005D34B9 /* libidlib_pic.a */; };
 		81225AC40912C42F005D34B9 /* PlayerIcon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81225A3B0912C42F005D34B9 /* PlayerIcon.cpp */; };
 		81225AC50912C42F005D34B9 /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81225A3C0912C42F005D34B9 /* Actor.cpp */; };
 		81225AC60912C42F005D34B9 /* Actor.h in Headers */ = {isa = PBXBuildFile; fileRef = 81225A3D0912C42F005D34B9 /* Actor.h */; };
@@ -139,6 +138,7 @@
 		81225B440912C42F005D34B9 /* Weapon.h in Headers */ = {isa = PBXBuildFile; fileRef = 81225AC10912C42F005D34B9 /* Weapon.h */; };
 		81225B450912C42F005D34B9 /* WorldSpawn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81225AC20912C42F005D34B9 /* WorldSpawn.cpp */; };
 		81225B460912C42F005D34B9 /* WorldSpawn.h in Headers */ = {isa = PBXBuildFile; fileRef = 81225AC30912C42F005D34B9 /* WorldSpawn.h */; };
+		8C2520FC147ECDE800924298 /* libidlib_pic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81225A210912C3A4005D34B9 /* libidlib_pic.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -307,7 +307,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81225A3A0912C3DB005D34B9 /* libidlib_pic.a in Frameworks */,
+				8C2520FC147ECDE800924298 /* libidlib_pic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
